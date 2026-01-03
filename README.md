@@ -4,7 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&width=800&lines=%3C%2F%3E+Building+The+Future%2C+One+Algorithm+At+A+Time+%3C%2F%3E;%7B+Code+%7C+Create+%7C+Innovate+%7D;console.log('Welcome+to+my+GitHub!')+%F0%9F%9A%80" alt="Subtitle" />
+<img src="assets/subtitle.svg" width="800" alt="Subtitle" />
 
 <br>
 
