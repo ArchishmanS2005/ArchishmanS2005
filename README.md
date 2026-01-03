@@ -334,22 +334,22 @@ const archishman = {
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80"><br>
+<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-algorithms-data-science-flaticons-lineal-color-flat-icons-2.png" width="80"><br>
 <b>Data Structures</b><br>
 <sub>Advanced Trees | Graph Algorithms | Dynamic Programming</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80"><br>
+<img src="https://img.icons8.com/color/80/000000/cloud-network.png" width="80"><br>
 <b>System Design</b><br>
 <sub>Scalability | Load Balancing | Microservices</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80"><br>
+<img src="https://img.icons8.com/color/80/000000/blockchain-technology.png" width="80"><br>
 <b>Web3</b><br>
 <sub>Smart Contracts | DeFi | Blockchain Architecture</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="80"><br>
+<img src="https://img.icons8.com/dusk/64/processor.png" width="80"><br>
 <b>Low Level</b><br>
 <sub>System Programming | Memory | Performance Tuning</sub>
 </td>
