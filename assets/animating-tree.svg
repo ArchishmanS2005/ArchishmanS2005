@@ -1,0 +1,137 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
+      
+      .bg { fill: #0d1117; }
+      
+      .tree-node {
+        fill: #0d1117;
+        stroke: #2ea043;
+        stroke-width: 2;
+        filter: drop-shadow(0 0 5px #2ea043);
+      }
+      
+      .tree-edge {
+        stroke: #30363d;
+        stroke-width: 2;
+      }
+      
+      .data-packet {
+        fill: #2ea043;
+        animation: flow 3s infinite linear;
+      }
+      
+      .code-snippet {
+        font-family: 'Fira Code', monospace;
+        font-size: 10px;
+        fill: #58a6ff;
+        opacity: 0.3;
+        animation: rain 4s infinite linear;
+      }
+      
+      .node-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 12px;
+        fill: #c9d1d9;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      
+      .active-pulse {
+        animation: pulse 2s infinite ease-in-out;
+      }
+
+      @keyframes flow {
+        0% { offset-distance: 0%; opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { offset-distance: 100%; opacity: 0; }
+      }
+      
+      @keyframes pulse {
+        0% { stroke: #2ea043; stroke-width: 2; filter: drop-shadow(0 0 5px #2ea043); }
+        50% { stroke: #3fb950; stroke-width: 4; filter: drop-shadow(0 0 10px #3fb950); }
+        100% { stroke: #2ea043; stroke-width: 2; filter: drop-shadow(0 0 5px #2ea043); }
+      }
+      
+      @keyframes rain {
+        0% { transform: translateY(-20px); opacity: 0; }
+        10% { opacity: 0.4; }
+        90% { opacity: 0.4; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+      
+      /* Specific delays for matrix feel */
+      .c1 { animation-delay: 0s; }
+      .c2 { animation-delay: 1.5s; }
+      .c3 { animation-delay: 0.7s; }
+      .c4 { animation-delay: 2.2s; }
+      
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+  
+  <!-- "Matrix" Code Rain Background -->
+  <g transform="translate(50, 0)">
+    <text x="0" y="0" class="code-snippet c1">if (node)</text>
+    <text x="100" y="50" class="code-snippet c2">return null</text>
+    <text x="600" y="20" class="code-snippet c3">dfs(root)</text>
+    <text x="700" y="40" class="code-snippet c4">{ value: 1 }</text>
+    <text x="50" y="-30" class="code-snippet c2">while(true)</text>
+    <text x="650" y="-10" class="code-snippet c1">01001010</text>
+  </g>
+
+  <g transform="translate(400, 40)">
+    <!-- Root -->
+    <circle cx="0" cy="0" r="20" class="tree-node active-pulse" />
+    <text x="0" y="0" class="node-text">root</text>
+    
+    <!-- Level 1 Left -->
+    <path id="pathL" d="M0,20 L-100,80" class="tree-edge"/>
+    <circle cx="-100" cy="80" r="18" class="tree-node" />
+    <text x="-100" y="80" class="node-text">L</text>
+    
+    <!-- Level 1 Right -->
+    <path id="pathR" d="M0,20 L100,80" class="tree-edge"/>
+    <circle cx="100" cy="80" r="18" class="tree-node" />
+    <text x="100" y="80" class="node-text">R</text>
+    
+    <!-- Level 2 LL -->
+    <path id="pathLL" d="M-100,98 L-150,160" class="tree-edge"/>
+    <circle cx="-150" cy="160" r="15" class="tree-node" />
+    <text x="-150" y="160" class="node-text">LL</text>
+    
+    <!-- Level 2 LR -->
+    <path id="pathLR" d="M-100,98 L-50,160" class="tree-edge"/>
+    <circle cx="-50" cy="160" r="15" class="tree-node" />
+    <text x="-50" y="160" class="node-text">LR</text>
+    
+     <!-- Level 2 RL -->
+    <path id="pathRL" d="M100,98 L50,160" class="tree-edge"/>
+    <circle cx="50" cy="160" r="15" class="tree-node" />
+    <text x="50" y="160" class="node-text">RL</text>
+    
+     <!-- Level 2 RR -->
+    <path id="pathRR" d="M100,98 L150,160" class="tree-edge"/>
+    <circle cx="150" cy="160" r="15" class="tree-node" />
+    <text x="150" y="160" class="node-text">RR</text>
+
+    <!-- Data Packets Flowing -->
+    <circle r="4" class="data-packet">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M0,20 L-100,80" />
+    </circle>
+    <circle r="4" class="data-packet" style="animation-delay: 1s">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M0,20 L100,80" />
+    </circle>
+    
+    <circle r="3" class="data-packet" style="animation-delay: 0.5s">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M-100,98 L-150,160" />
+    </circle>
+    <circle r="3" class="data-packet" style="animation-delay: 1.5s">
+      <animateMotion dur="2s" repeatCount="indefinite" path="M100,98 L150,160" />
+    </circle>
+    
+  </g>
+</svg>
