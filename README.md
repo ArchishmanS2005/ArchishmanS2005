@@ -4,11 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 
-<img src="assets/animating-tree.svg" width="800" alt="Animated Code Tree" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=120&lines=%F0%9F%92%BB+Full+Stack+Developer+%7C+System+Architect;%F0%9F%8C%B2+DSA+Enthusiast+%7C+Algorithm+Master;%E2%9B%93+Web3+Pioneer+%7C+Blockchain+Engineer;%F0%9F%9A%80+Hackathon+Warrior+%7C+Problem+Solver;if(coding)+%7B+passion+%3D+true%3B+%7D" alt="Typing SVG" />
+<img src="assets/subtitle.svg" width="800" alt="Subtitle" />
 
 <br>
 
