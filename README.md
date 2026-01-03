@@ -26,27 +26,7 @@
 
 <div align="center">
 
-### 🎯 TECH UNIVERSE 🌌
-
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="200"><br>
-<b>🔥 DEVELOPMENT</b><br>
-<sub>Building & Creating</sub>
-</td>
-<td width="33%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="200"><br>
-<b>⚡ ALGORITHMS</b><br>
-<sub>Solving & Optimizing</sub>
-</td>
-<td width="33%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="200"><br>
-<b>🌐 DEPLOYMENT</b><br>
-<sub>Shipping & Scaling</sub>
-</td>
-</tr>
-</table>
+<img src="assets/tech-universe.svg" width="900" alt="Tech Universe" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
