@@ -334,22 +334,22 @@ const archishman = {
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-algorithms-data-science-flaticons-lineal-color-flat-icons-2.png" width="80"><br>
+<img src="assets/dsa.svg" width="80"><br>
 <b>Data Structures</b><br>
 <sub>Advanced Trees | Graph Algorithms | Dynamic Programming</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/80/000000/cloud-network.png" width="80"><br>
+<img src="assets/system-design.svg" width="80"><br>
 <b>System Design</b><br>
 <sub>Scalability | Load Balancing | Microservices</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/color/80/000000/blockchain-technology.png" width="80"><br>
+<img src="assets/web3.svg" width="80"><br>
 <b>Web3</b><br>
 <sub>Smart Contracts | DeFi | Blockchain Architecture</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/dusk/64/processor.png" width="80"><br>
+<img src="assets/low-level.svg" width="80"><br>
 <b>Low Level</b><br>
 <sub>System Programming | Memory | Performance Tuning</sub>
 </td>
