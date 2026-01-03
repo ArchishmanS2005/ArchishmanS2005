@@ -47,32 +47,9 @@
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
 ```javascript
-const archishman = {
-    location: "Kolkata, India 🇮🇳",
-    education: {
-        university: "Techno India University",
-        degree: "B.Tech in Computer Science",
-        semester: "3rd",
-        cgpa: 7.85,
-        status: "Learning & Building 🚀"
-    },
-    code: {
-        languages: ["C", "C++", "Java", "Python", "JavaScript", "Go"],
-        expertise: ["DSA", "System Design", "Web3", "Full-Stack"],
-        currentlyLearning: "Distributed Systems & Blockchain",
-        challenge: "Building scalable architectures"
-    },
-    interests: [
-        "🌲 Data Structures & Algorithms",
-        "🏗️ System Architecture & Design",
-        "⛓️ Blockchain & Web3 Technologies",
-        "🔐 Security & Authentication",
-        "⚡ Performance Optimization",
-        "🎮 Game Development"
-    ],
-    funFact: "I debug with console.log() and I'm not ashamed! 😎"
-};
-```
+## <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="30"> About Me - The Binary Explorer
+
+<img src="assets/about-me.svg" width="900" alt="About Me Code" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
